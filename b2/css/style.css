@@ -1,0 +1,235 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'MyriadProCondRegular';
+}
+header{
+width: 1200px;
+  height: 484px;
+  background: url(../images/header_fon.jpg);
+  position: relative;
+}
+header ul{
+  list-style: none;
+  width: 960px;
+  height: 36px;
+  background: url(../images/fon_menu.jpg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  line-height: 36px;
+}
+header ul li{
+  float: left;
+  width: 160px;
+  text-align: center;
+}
+header ul li a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+header ul li a:hover{
+  background: #03bfdf;
+}
+header .phone{
+  position: absolute;
+  top: 200px;
+  right: 15px;
+  color: #fff;
+}
+.tel{
+  position: absolute;
+  font-size: 26px;
+  left: -65px;
+}
+section{
+  width: 940px;
+  overflow: hidden;
+  padding: 55px 0;
+  border-bottom: 1px dashed  #888;
+}
+.job{
+  margin-bottom: 55px;
+  overflow: hidden;
+}
+.job div{
+  float: left;
+  width: 313px;
+}
+.job div img{
+  float: left;
+  margin-right: 10px;
+}
+.job div p{
+ padding-bottom: 10px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #868787;
+}
+.job div h3{
+  font-size: 17px;
+  color: #4e4e4e;
+}
+.job div a{
+  font-size: 10px;
+  font-weight: 400;
+}
+h2{
+  color: #008fbf;
+}
+.news{
+  width: 270px;
+  margin-bottom: 30px;
+  float: left;
+}
+.news ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+.news h2{
+  margin-bottom: 30px;
+}
+a{
+  color: #42b4c9;
+}
+.company{
+  width: 590px;
+  margin-left: 50px;
+  float: left;
+  border-bottom: 1px dashed  #888;
+}
+.company h2{
+  margin-bottom: 10px;
+}
+.company p{
+  padding: 15px 0;
+  border-top: 1px dashed  #888;
+  color: #797979;
+  line-height: 30px;
+}
+.clear{
+  clear: both;
+}
+.online{
+  width: 270px;
+  float: left;
+
+}
+
+.online a{
+  display: block;
+  background: url(../images/button.png) no-repeat;
+  color: #fff;
+  font-size: 12px;
+  padding-left: 70px;
+  height: 35px;
+  padding-top: 6px;
+  text-decoration: none;
+  margin-top: 5px;
+  line-height: 15px;
+}
+.online span{
+  font-size: 20px;
+  font-weight: 700;
+}
+.service{
+  width: 590px;
+  float: left;
+  margin-left: 50px;
+  border-bottom: 1px dashed  #888;
+  padding-bottom: 15px;
+
+}
+.service h2{
+  margin-bottom: 19px;
+  font-size: 19px;
+  line-height: 24px;
+}
+.service .left {
+float: left;
+width: 290px;
+
+}
+.service .right{
+  float: left;
+  width: 290px;
+}
+.service .left ul li{
+  list-style: none;
+}
+.service .right ul li{
+  list-style: none;
+}
+.project{
+  width: 880px;
+  /*overflow: hidden;*/
+  position: relative;
+ }
+.left-arrow{
+  position: absolute;
+  left: -25px;
+  top: 33px;
+}
+.right-arrow{
+  position: absolute;
+  right: -25px;
+  top: 33px;
+  transform: rotate(180deg);
+}
+.project div{
+  float: left;
+  width: 170px;
+  margin-left: 66px;
+}
+.project .one{
+  margin-left: 0;
+}
+.project div a{
+  display: block;
+}
+.bottom{
+  margin-top: 45px;
+  float: left;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #797979;
+  /*font-family: "Myriad Pro";*/
+}
+.project span{
+  color: #1f1f1f;
+  font-size: 14px;
+}
+.project div p{
+  padding-top: 10px;
+  color: #8a8a89;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+}
+footer {
+  width: 960px;
+  overflow: hidden;
+}
+footer ul{
+
+  overflow: hidden;
+  margin: 15px 0 0 10px;
+}
+footer ul li{
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  height: 40px;
+
+
+}
+footer ul li a{
+
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+}
